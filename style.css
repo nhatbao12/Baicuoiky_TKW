@@ -92,14 +92,17 @@ body{
     background-color: red;
 }
 
-.login-link{
-    color: #fff;
-    opacity: 0.9;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 15px;
-    margin-top: 80px;
-    text-decoration: none;
+.navbar-avatar{
+    background: #dddddd;
+    border-radius: 50%;
+    border: 2px solid #a1a1a1;
+    height: 33px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 34px;
+    margin-top: 4px;
+    margin-left: 13px;
 }
 
 
@@ -199,6 +202,16 @@ body{
 
 .video-card:hover .video-card-image{
     display: none;
+}
+
+.wrapper{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
 }
 
 .title{
@@ -428,7 +441,7 @@ footer .link {
 
 footer{
     background-color: #111;
-
+    
 }
 
 .footerContainer{
@@ -509,6 +522,8 @@ img{
     font-weight: 400;
     margin: 0 5px;
 }
+
+
 
 #backTop{
     width: 50px;
