@@ -26,6 +26,11 @@ let movies = [
     }
 ]
 
+let subMenu = document.getElementById('submenu')
+function toggleMenu(){
+    subMenu.classList.toggle("open-menu")
+}
+
 const carousel = document.querySelector('.carousel')
 let sliders = []
 

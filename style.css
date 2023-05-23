@@ -14,7 +14,7 @@ body{
 }
 
 .navbar{
-    width: 100%;
+    width: 108%;
     height: 80px;
     position: fixed;
     top: 0;
@@ -103,6 +103,7 @@ body{
     width: 34px;
     margin-top: 4px;
     margin-left: 13px;
+    margin-right: 106px;
 }
 
 
@@ -445,6 +446,7 @@ footer{
 }
 
 .footerContainer{
+    background: black;
     width: 100%;
     padding: 70px 20px 30px;
 }
@@ -538,3 +540,83 @@ img{
     bottom: 40px;
     right:  20px;
 }
+
+.navbar_notifyCount{
+    background-color: #fa3e3e;
+    border-radius: 99px;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 10px;
+    left: 16px;
+    padding: 2px 3px 1px;
+    position: absolute;
+    top: -2px;
+    margin-left: 1403px;
+    margin-top: 28px;
+}
+
+.sub-menu-wrap{
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    width: 320px;
+    max-height: 0px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: max-height 0.5s;
+}
+
+.sub-menu-wrap.open-menu{
+   
+    max-height: 400px;
+}
+
+.sub-menu{
+    background: #fff;
+    padding: 30px;
+    margin: 10px;
+    margin-left: 32px;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+}
+
+.user-info h3{
+    font-weight: 500;
+}
+
+.user-info img{
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.sub-menu hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin: 15px 0 10px;
+}
+
+.sub-menu-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #525252;
+    margin: 12px 0;
+}
+
+.sub-menu-link p{
+    width: 100%;
+}
+
+.sub-menu-link p:hover{
+    font-weight: 600;
+}
+
