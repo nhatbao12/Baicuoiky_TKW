@@ -1,3 +1,9 @@
+let subMenu = document.getElementById('submenu')
+function toggleMenu(){
+    subMenu.classList.toggle("open-menu")
+}
+
+/*Slide show*/
 let movies = [
     {
         name: "WI  vs IND 317/8 (50)",
@@ -26,10 +32,6 @@ let movies = [
     }
 ]
 
-let subMenu = document.getElementById('submenu')
-function toggleMenu(){
-    subMenu.classList.toggle("open-menu")
-}
 
 const carousel = document.querySelector('.carousel')
 let sliders = []
@@ -73,13 +75,15 @@ sliders.push(slide)
 
 }
 
-for(let i = 0; i< 3;i++){
+for(let i = 0; i< 5;i++){
     createSlide()
 }
 
 setInterval(() =>{
     createSlide()
 },3000)
+
+/*Video card*/
 
 const videoCards = [...document.querySelectorAll('.video-card')]
 
@@ -111,6 +115,7 @@ cardContainers.forEach((item, i) => {
     })
 })
 
+/*Back top*/
 $(document).ready(function(){
     $(window).scroll(function(){
         if($(this).scrollTop()){
@@ -122,6 +127,6 @@ $(document).ready(function(){
     $("#backTop").click(function(){
         $('html,body').animate({
             scrollTop: 0
-        },500)
+        },400)
     })
 })
